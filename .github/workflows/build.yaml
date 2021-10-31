@@ -22,7 +22,6 @@ jobs:
 
         # NOTE: If a boost version matching all requirements cannot be found,
         # this build step will fail
-        
     name: Project_Building
     runs-on: ubuntu-latest
     timeout-minutes: 4
