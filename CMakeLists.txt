@@ -8,4 +8,5 @@ set(CMAKE_CXX_STANDARD 14)
 
 #configure_file("src/Performances.csv" Performances.csv)
 
-add_executable(Program-3-Diogo-Kellen src/main.cpp src/main.cpp src/main.h)
+add_executable(Program-3-Diogo-Kellen src/main.cpp)
+add_executable(Tests Tests/Testing.cpp)

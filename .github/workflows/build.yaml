@@ -3,7 +3,7 @@ on: [push]
 
 env:
   EXE_NAME: Program-3-Diogo-Kellen
-  OUTPUT_FILES: Performances.csv
+#  OUTPUT_FILES: Performances.csv
 
 jobs:
   build:
