@@ -1,5 +1,6 @@
 #include <boost/version.hpp>
 #include <iostream>
+#include "boost/graph/adjacency_list.hpp"
 using namespace std;
 
 int main(){
@@ -10,5 +11,6 @@ int main(){
     << BOOST_VERSION % 100                // patch level
     << std::endl;
 
-    
+    typedef adjacency_list, vecS> Graph;
+
 }
